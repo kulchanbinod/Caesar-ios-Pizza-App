@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AAEBE978E92BEBDC2BD356C /* libPods-pizza.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E15729AF1C70D7DC06F6E398 /* libPods-pizza.a */; };
+		951CA97C2161A1330012F81F /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951CA97B2161A1330012F81F /* SignupController.swift */; };
+		95255FC62158642D00531ABD /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95255FC52158642D00531ABD /* MapController.swift */; };
+		95255FC82158868900531ABD /* MenuSelectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95255FC72158868900531ABD /* MenuSelectController.swift */; };
+		959E82D22147927D00096F84 /* Chunkfive.otf in Resources */ = {isa = PBXBuildFile; fileRef = 959E82D12147926E00096F84 /* Chunkfive.otf */; };
+		959E82D52147992A00096F84 /* UIPizzaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959E82D42147992A00096F84 /* UIPizzaButton.swift */; };
+		95AE7C412161127D009EE7BB /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE7C402161127D009EE7BB /* AccountController.swift */; };
 		95D428C22119326C004BDB5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D428C12119326C004BDB5C /* AppDelegate.swift */; };
 		95D428C42119326C004BDB5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D428C32119326C004BDB5C /* ViewController.swift */; };
-		95D428C72119326C004BDB5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D428C52119326C004BDB5C /* Main.storyboard */; };
+		95D428C72119326C004BDB5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D428C52119326C004BDB5C /* Main.storyboard */; settings = {ASSET_TAGS = (2, ); }; };
 		95D428CA2119326C004BDB5C /* pizza.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95D428C82119326C004BDB5C /* pizza.xcdatamodeld */; };
 		95D428CC2119326D004BDB5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95D428CB2119326D004BDB5C /* Assets.xcassets */; };
 		95D428CF2119326D004BDB5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D428CD2119326D004BDB5C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4ABBFB475E1F64C8E97920A8 /* Pods-pizza.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pizza.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pizza/Pods-pizza.debug.xcconfig"; sourceTree = "<group>"; };
+		951CA97B2161A1330012F81F /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		95255FC52158642D00531ABD /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		95255FC72158868900531ABD /* MenuSelectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSelectController.swift; sourceTree = "<group>"; };
+		959E82D12147926E00096F84 /* Chunkfive.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chunkfive.otf; sourceTree = "<group>"; };
+		959E82D42147992A00096F84 /* UIPizzaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPizzaButton.swift; sourceTree = "<group>"; };
+		95AE7C402161127D009EE7BB /* AccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
 		95D428BE2119326C004BDB5C /* pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D428C12119326C004BDB5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95D428C32119326C004BDB5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +38,8 @@
 		95D428CB2119326D004BDB5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95D428CE2119326D004BDB5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95D428D02119326D004BDB5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D736FE2DB9AFF508D23D95BC /* Pods-pizza.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pizza.release.xcconfig"; path = "Pods/Target Support Files/Pods-pizza/Pods-pizza.release.xcconfig"; sourceTree = "<group>"; };
+		E15729AF1C70D7DC06F6E398 /* libPods-pizza.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pizza.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AAEBE978E92BEBDC2BD356C /* libPods-pizza.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E4BE3A60FAB73C062BB3FC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E15729AF1C70D7DC06F6E398 /* libPods-pizza.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		959E82D02147925F00096F84 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				959E82D12147926E00096F84 /* Chunkfive.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		959E82D3214798B700096F84 /* customUIelements */ = {
+			isa = PBXGroup;
+			children = (
+				959E82D42147992A00096F84 /* UIPizzaButton.swift */,
+			);
+			path = customUIelements;
+			sourceTree = "<group>";
+		};
 		95D428B52119326C004BDB5C = {
 			isa = PBXGroup;
 			children = (
 				95D428C02119326C004BDB5C /* pizza */,
 				95D428BF2119326C004BDB5C /* Products */,
+				964D20DAFF1186512AD25F3C /* Pods */,
+				0E4BE3A60FAB73C062BB3FC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +99,30 @@
 		95D428C02119326C004BDB5C /* pizza */ = {
 			isa = PBXGroup;
 			children = (
+				959E82D3214798B700096F84 /* customUIelements */,
+				959E82D02147925F00096F84 /* fonts */,
 				95D428C12119326C004BDB5C /* AppDelegate.swift */,
 				95D428C32119326C004BDB5C /* ViewController.swift */,
 				95D428C52119326C004BDB5C /* Main.storyboard */,
+				95AE7C402161127D009EE7BB /* AccountController.swift */,
+				95255FC72158868900531ABD /* MenuSelectController.swift */,
+				95255FC52158642D00531ABD /* MapController.swift */,
 				95D428CB2119326D004BDB5C /* Assets.xcassets */,
 				95D428CD2119326D004BDB5C /* LaunchScreen.storyboard */,
 				95D428D02119326D004BDB5C /* Info.plist */,
 				95D428C82119326C004BDB5C /* pizza.xcdatamodeld */,
+				951CA97B2161A1330012F81F /* SignupController.swift */,
 			);
 			path = pizza;
+			sourceTree = "<group>";
+		};
+		964D20DAFF1186512AD25F3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4ABBFB475E1F64C8E97920A8 /* Pods-pizza.debug.xcconfig */,
+				D736FE2DB9AFF508D23D95BC /* Pods-pizza.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95D428D32119326D004BDB5C /* Build configuration list for PBXNativeTarget "pizza" */;
 			buildPhases = (
+				6F02A37948508CCB9D5F20BD /* [CP] Check Pods Manifest.lock */,
 				95D428BA2119326C004BDB5C /* Sources */,
 				95D428BB2119326C004BDB5C /* Frameworks */,
 				95D428BC2119326C004BDB5C /* Resources */,
+				E0A42FC2F3018C93892EB7BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -93,6 +153,10 @@
 		95D428B62119326C004BDB5C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+					2,
+				);
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Binod Pariyar";
@@ -128,18 +192,65 @@
 				95D428CF2119326D004BDB5C /* LaunchScreen.storyboard in Resources */,
 				95D428CC2119326D004BDB5C /* Assets.xcassets in Resources */,
 				95D428C72119326C004BDB5C /* Main.storyboard in Resources */,
+				959E82D22147927D00096F84 /* Chunkfive.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F02A37948508CCB9D5F20BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pizza-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0A42FC2F3018C93892EB7BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-pizza/Pods-pizza-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pizza/Pods-pizza-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		95D428BA2119326C004BDB5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95AE7C412161127D009EE7BB /* AccountController.swift in Sources */,
 				95D428C42119326C004BDB5C /* ViewController.swift in Sources */,
 				95D428C22119326C004BDB5C /* AppDelegate.swift in Sources */,
+				951CA97C2161A1330012F81F /* SignupController.swift in Sources */,
+				959E82D52147992A00096F84 /* UIPizzaButton.swift in Sources */,
+				95255FC62158642D00531ABD /* MapController.swift in Sources */,
+				95255FC82158868900531ABD /* MenuSelectController.swift in Sources */,
 				95D428CA2119326C004BDB5C /* pizza.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,11 +393,13 @@
 		};
 		95D428D42119326D004BDB5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ABBFB475E1F64C8E97920A8 /* Pods-pizza.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YZ58V9N88T;
 				INFOPLIST_FILE = pizza/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +413,13 @@
 		};
 		95D428D52119326D004BDB5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D736FE2DB9AFF508D23D95BC /* Pods-pizza.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YZ58V9N88T;
 				INFOPLIST_FILE = pizza/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
